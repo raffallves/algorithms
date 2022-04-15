@@ -40,7 +40,14 @@ class Graph {
 // Each inner array represents two vertices and the edge between them
 // In undirected graphs the order of the vertices don't matter, but in directed graphs they do
 // Caveat: you have to search the whole list (linear search) to find a single value
-const edgeList = [[0,2], [1, 3], [2, 3], [2, 4], [3, 5], [4, 5]]
+const edgeList = [
+                [0, 2], 
+                [1, 3], 
+                [2, 3], 
+                [2, 4], 
+                [3, 5], 
+                [4, 5]
+            ]
 
 // Adjacency Matrix
 // Value is 1 if there is an edge between row and column vertices, 0 if there's not
@@ -57,7 +64,10 @@ const adjMatrix = [
 // Adjacency List
 // Each value represents a vertex in list i, and list j represents the vertices it has edges with
 // Takes more space (less than matrix though) and runs faster than edge list
-const adjList = [
-    [0, 1, 2, 3, 4, 5], // i
-    [[2],[3],[3,4],[5],[5],[]] // j
+const adjList = [ // i
+    [2],
+    [3],
+    [3, 4],
+    [5],
+    [] // j
 ]
