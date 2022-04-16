@@ -9,6 +9,7 @@ The folder is divided into two main topics:
         - Insertion Sort;
         - Merge Sort;
         - Quick Sort;
+        - Bubble Sort;
     - Search:
         - Linear Search;
         - Binary Search;
